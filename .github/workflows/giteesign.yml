@@ -1,7 +1,7 @@
 name: gitee-sign
 on:
-  schedule:
-    - cron: 55 4,12 * * *
+  # schedule:
+    # - cron: 55 4,12 * * *
   workflow_dispatch:
 jobs:
   build:
